@@ -1,0 +1,71 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+job : AMLdiag-W20-E0.0-D15.0_516212.2
+Working from /gpfs/phsht/AMLdiag-W20-E0.0-D15.0_516212.2
+PreSeed       = 0 
+NEVals        = 1                
+IBCFlag       = 1                
+IRNGFlag      = 0                
+IKeepFlag     = 0                
+IWriteFlag    = 2                
+IWidth        = 20            
+DiagDis       = 15.0         
+Energy        = 0.0           
+ AMLdiag $Revision: 1.2 $  $Date: 2010/12/02 11:28:04 $  $Author: phsht $
+ PreSeed       =            0
+ NEVals       =            1
+ IBCFlag      =            1
+ IRNGFlag     =            0
+ IKeepFlag    =            0
+ IWriteFlag   =            2
+ IWidth       =           20
+ DiagDis      =    15.0000000000000     
+ Energy       =   0.000000000000000E+000
+ IWidth=          20
+ main: cube is         8000  by         8000
+ main: VEC size =       497600
+       DiagDis=   15.0000000000000     
+ PreSeed =    258385270
+ lfsrinit():  T T T T T
+ ISeed =    923020136
+ MakeAndersonMatrix()
+
+**ENTERING PJDREVCOM************************************
+
+Computing the eigenvalue(s) closest to  0.00000E+00
+---------------------------------------------------
+
+- Setting up a new ILU preconditioner ------------------
+ fill-in factor:     12.12 (=nnz(LU)/nnz(A))
+   used droptol:   1.00000E-03
+     used shift:   0.00000E+00
+   ILU computed:      0.46[sec]
+--------------------------------------------------------
+
+            Eigenvalue     Res. norm    Error est.   No(Cluster)
+   4.2684401877113E-04       2.8E-11       2.1E-18        1(---) (*)
+
+ (Warning: error estimates are subject to several limitations,
+  see documentation for details; for (*), error estimate is indicative only)
+
+  Number of MATVEC needed:     26 ;  Estimated gap: 3.88E-04 ;  INFO:  0
+
+CPU time for eigenvalue computation:      0.07[sec]
+       CPU time for preconditioning:      0.46[sec]
+                     Total CPU time:      0.53[sec]
+
+ (Suggested DROPTOL if restart needed: 6.45E-03)
+
+**LEAVING PJDREVCOM*************************************
+
+ eVAL file    
+ Eval0020-0000-1500-0258385270.raw                                              
+                      
+ evector file 
+ Evec0020-0000-1500-0001-0258385270.raw                                         
+                      
+Output files found
+--- working in host=node69
+ssh index: 1
+Data compressed and moved to /storage/disqs/MULTIFRACTALS/AML3D_data/W15.0/L20/AM-W20-E0.0-D15.0-PS0258385270
+Temporary directory /gpfs/phsht/AMLdiag-W20-E0.0-D15.0_516212.2 removed

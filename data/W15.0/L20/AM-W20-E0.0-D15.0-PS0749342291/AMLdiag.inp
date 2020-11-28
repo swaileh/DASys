@@ -1,0 +1,9 @@
+PreSeed       = 0 
+NEVals        = 1                
+IBCFlag       = 1                
+IRNGFlag      = 0                
+IKeepFlag     = 0                
+IWriteFlag    = 2                
+IWidth        = 20            
+DiagDis       = 15.0         
+Energy        = 0.0           
