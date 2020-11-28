@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-tensorflow==2.2
+tensorflow==2.4.0
 Keras==2.4.3
 bz2file==0.98
 
