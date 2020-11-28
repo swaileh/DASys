@@ -8,5 +8,6 @@ tensorflow==2.3.1
 Keras==2.4.3
 bz2file==0.98
 sklearn2==0.0.13
+matplotlib==3.3.3
 
 
